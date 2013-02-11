@@ -1,0 +1,10 @@
+".mainrow":{
+	height: "50dp",
+	backgroundColor: "#cacaca"
+},
+"#menuoption":{
+	color: "#000",
+	font:{
+		fontSize: "20dp"
+	}
+}

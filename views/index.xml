@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="container">
+		<View id="mainView">
+			<View id="mainHeader">
+				<ImageView id="logo"/>
+			</View>
+			<ScrollableView id="scrollableView">
+	            
+	        </ScrollableView>
+	        <TableView id="menuoptions" onClick="onMenuClick"></TableView>
+	    </View>
+	</Window>
+</Alloy>

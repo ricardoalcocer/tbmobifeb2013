@@ -1,0 +1,43 @@
+".container": {
+	backgroundColor:"white",
+	orientationModes: [Ti.UI.PORTRAIT],
+	navBarHidden: true
+},
+"Label":{
+	height: Ti.UI.SIZE
+},
+"#logo":{
+	height: "50dp",
+	width: Ti.UI.SIZE
+},
+"#mainView":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "vertical"
+},
+"#mainHeader":{
+	height: "60dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "#fff"
+},
+"#scrollableView[platform=ios]":{
+	height: "250dp",
+	widht: Ti.UI.FILL,
+	showPagingControl:"true"
+},
+"#scrollableView[platform=android]":{
+	height: "250dp",
+	widht: Ti.UI.FILL,
+	showPagingControl:"true"
+},
+".mainphoto":{
+	height: "100dp"
+},
+"#mainBottom":{
+	bottom: 0,
+	height: Ti.UI.SIZE,
+	backgroundColor: "#cacaca"
+},
+"#menuoptions":{
+	separatorColor:'transparent'
+}
